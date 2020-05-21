@@ -32,7 +32,7 @@ app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
 
 const handlePublish = (req) => {
   const { html, url, feature_image, title } = req.body.post.current;
-  let message = `🚀Artikel baru telah ditambahkan ke [${title}](${url}) di [${process.env.SITE_NAME}](${process.env.SITE_URL}). \n`;
+  let message = `🚀Artikel baru telah ditambahkan!\n [${title}](${url}) di [${process.env.SITE_NAME}](${process.env.SITE_URL}). \n`;
   let content = message + `${url}\n`;
   sendToBot(content);
 };
