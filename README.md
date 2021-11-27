@@ -11,4 +11,4 @@ This is ghost cms telegram channel webhook made with `express`
 5. Copy `.env-example` and rename to `.env`
 6. Fill your data in `.env`
 7. Access your webhook via `https://{AUTH_USERNAME}:{AUTH_PASSWORD}@your-ngorok-url.ngrok.io/publish`
-Read more at [belajarinformatika.id](https://belajarinformatika.id/ghost-webhook-channel-telegram/)
+Read more at [belajarinformatika.com](https://belajarinformatika.com/ghost-webhook-channel-telegram/)
